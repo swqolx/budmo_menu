@@ -255,29 +255,33 @@
          ========================================== -->
     <script>
         // ЩОРАНКУ ЗМІНЮЙТЕ СТРАВИ ТУТ ПРЯМО З ТЕЛЕФОНУ В ЦЬОМУ ФАЙЛІ:
-        //const todaysMenu = {
+        const todaysMenu = {
             "Перші страви": [
                 { name: "Борщ червоний", weight: "", price: "60 грн", count: true },
-                { name: "Суп гороховий з копченостями", weight: "300г", price: "80 грн", count: 2 }
+                { name: "Суп гороховий", weight: "", price: "55 грн", count: true}
             ],
             "Другі страви": [
-                { name: "Вареники з м'ясом та шкварками", weight: "250г", price: "110 грн", count: 5 },
-                { name: "Деруни зі сметаною та грибами", weight: "300г", price: "90 грн", count: true }
+                { name: "Картопляне пюре", weight: "", price: "50 грн", count: true },
+                { name: "Гречка", weight: "", price: "45 грн", count: false }
+                { name: "Жаркое з мʼясом", weight: "", price: "70 грн", count: true }
+                { name: "Плов", weight: "", price: "70 грн", count: true }
+                { name: "Булгур", weight: "", price: "45 грн", count: true }
             ],
             "М'ясні страви": [
-                { name: "Домашні котлети з картопляним пюре", weight: "120/200г", price: "125 грн", count: true },
-                { name: "Крученики свинячі з чорносливом", weight: "200г", price: "145 грн", count: 1 },
-                { name: "Шашлик курячій з лавашем", weight: "150г", price: "130 грн", count: 0 }
+                { name: "Мʼясні котлети", weight: "", price: "60 грн", count: true },
+                { name: "Відбивна куряча", weight: "", price: "65 грн", count: 1 },
+                { name: "Ребра", weight: "", price: "95 грн", count: true}
             ],
             "Салати": [
-                { name: "Салат зі свіжої капусти та огірка", weight: "150г", price: "45 грн", count: true },
-                { name: "Олів'є домашнє з куркою", weight: "180г", price: "65 грн", count: 3 }
+                { name: "Салат зі свіжої капусти та огірка", weight: "", price: "45 грн", count: true },
+                { name: "Олів'є домашнє", weight: "", price: "55 грн", count: 2 }
             ],
             "Напої": [
-                { name: "Компот із сухофруктів (Узвар)", weight: "300мл", price: "25 грн", count: true },
-                { name: "Чай трав'яний карпатський", weight: "400мл", price: "40 грн", count: true }
+                { name: "Компот із сухофруктів ", weight: "", price: "20", count: true },
+                { name: "Кава на вибір", weight: "", price: "-", count: true }
+                { name: "Сік ягідний", weight: "", price: "25", count: true }
             ]
-        };//
+        };
 
         // Функція побудови сторінки
 window.addEventListener("load", () => {
