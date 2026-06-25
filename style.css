@@ -10,10 +10,13 @@ body {
     color: #2c2c2c;
     padding-bottom: 90px;
 }
-
 .header {
     background: linear-gradient(135deg, #7a121c 0%, #4a070f 100%);
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрує весь текст по горизонталі */
+    justify-content: center;
     text-align: center;
     padding: 30px 20px;
     border-bottom-left-radius: 24px;
