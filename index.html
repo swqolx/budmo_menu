@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе «Будьмо» — Меню дня</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Philosopher:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body> <!-- Шапка сайту з головними тегами -->
+    <headerclass="header">
+        <div class="logo-container">
+            <h1 class="logo">Будьмо</h1>
+        </div> <divclass="tagline-container">
+            <p class="tagline">Кафе української кухні</p>
+            </div> <divclass="badge-container"> <span class="date-badge">Меню на <span
+                        id="current-date">сьогодні</span></span> </div>
+                </header> <!-- Сюди за допомогою id="menu-content" скрипт буде додавати блоки страв -->
+                <main class="menu-container">
+                    <div id="menu-content"></div>
+                </main> <!-- Нижня панель сайту -->
+                <footer class="footer">
+                    <div class="footer-text-block">
+                        <p class="footer-info">📍 Чекаємо на вас за баром!</p>
+                    </div>
+                    <div class="footer-btn-block"> <a href="tel:+380000000000" class="order-btn">📞 Замовити на
+                            виніс</a> </div>
+                </footer>
+                <script src="script.js"></script>
+</body>
+
+</html>
